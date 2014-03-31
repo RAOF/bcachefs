@@ -9316,7 +9316,7 @@ int kvm_x86_vendor_init(struct kvm_x86_init_ops *ops)
 		return -EOPNOTSUPP;
 	}
 	if (ops->disabled_by_bios()) {
-		pr_err_ratelimited("kvm: support for '%s' disabled by bios\n",
+		pr_warn_ratelimited("kvm: support for '%s' disabled by bios\n",
 				   ops->runtime_ops->name);
 		return -EOPNOTSUPP;
 	}
