@@ -5,7 +5,6 @@ Architecture: ARCH
 Section: kernel
 Priority: optional
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Built-Using: ${linux:BuiltUsing}
 Description: Linux kernel buildinfo for version PKGVER on DESC
  This package contains the Linux kernel buildinfo for version PKGVER on
  DESC.
