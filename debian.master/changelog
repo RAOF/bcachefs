@@ -9656,6 +9656,31 @@ linux-5.7 (5.7.0-0.0) focal; urgency=medium
 
  -- Paolo Pisati <paolo.pisati@canonical.com>  Thu, 16 Apr 2020 11:53:58 +0200
 
+linux-5.6 (5.6.14+bcachefs.git20200524.e1f6739c-1) groovy; urgency=medium
+
+  * Build of bcachefs master 3780300b on top of 5.6.14 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sun, 24 May 2020 11:55:10 +1000
+
+linux-5.6 (5.6.12+bcachefs.git20200521.e1f6739c-1) focal; urgency=medium
+
+  * Build of bcaches master e1f6739c on top of 5.6.12 stable tag
+  * Update zfs dkms version to grab 5.6 compatibility
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 21 May 2020 10:23:37 +1000
+
+linux-5.6 (5.6.11+bcachefs.git20200509.37d599c3-1.1) focal; urgency=medium
+
+  * Disable nvidia and vbox builds
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 09 May 2020 17:54:14 +1000
+
+linux-5.6 (5.6.11+bcachefs.git20200509.37d599c3-1) focal; urgency=medium
+
+  * Build of bcachefs master 37d599c3 on top of 5.6.11 stable tag
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 09 May 2020 14:52:46 +1000
+
 linux-5.6 (5.6.0-7.7) focal; urgency=medium
 
   * Packaging resync (LP: #1786013)
