@@ -44,6 +44,10 @@ Build-Depends:
  bindgen-0.56 [amd64],
  clang [amd64],
  llvm [amd64],
+ binutils-dev,
+ libzstd-dev,
+ libbabeltrace-dev,
+ systemtap-sdt-dev,
 Build-Depends-Indep:
  xmlto <!stage1>,
  docbook-utils <!stage1>,
