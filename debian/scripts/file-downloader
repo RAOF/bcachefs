@@ -31,4 +31,12 @@ do
 	fi
 done
 
+if (grep -q "Content-Type: application/x-debian-package" "${to}.hdr"); then
+    echo "II: Found ${url}"
+else
+    rm "${to}"
+    echo "WW: ${url} not found"
+    exit 1
+fi
+
 exit 0
