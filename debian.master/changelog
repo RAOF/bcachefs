@@ -8151,6 +8151,18 @@ linux-unstable (5.12.0-0.0) hirsute; urgency=medium
 
  -- Paolo Pisati <paolo.pisati@canonical.com>  Thu, 04 Mar 2021 18:17:32 +0100
 
+linux (5.11.0+bcachefs.git20210504.a5c0e1bb-1.2) hirsute; urgency=medium
+
+  * Update dkms packages to fix build
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 05 May 2021 10:56:11 +1000
+
+linux (5.11.0+bcachefs.git20210504.a5c0e1bb-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master a5c0e1bb
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 04 May 2021 14:37:25 +1000
+
 linux-unstable (5.11.0-10.11) hirsute; urgency=medium
 
   * Packaging resync (LP: #1786013)
@@ -8434,6 +8446,200 @@ linux (5.11.0-0.0) hirsute; urgency=medium
 
  -- Andrea Righi <andrea.righi@canonical.com>  Wed, 30 Dec 2020 09:04:41 +0100
 
+linux (5.10.0+bcachefs.git20210427.8d3093bd-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 8d3093bd
+  * Rebase on v5.10.32 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 27 Apr 2021 15:49:58 +1000
+
+linux (5.10.0+bcachefs.git20210415.73a3c261-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 73a3c261
+  * Rebase on v5.10.30 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 15 Apr 2021 22:03:56 +1000
+
+linux (5.10.0+bcachefs.git20210409.f0c00042-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master f0c00042
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sun, 11 Apr 2021 15:33:34 +1000
+
+linux (5.10.0+bcachefs.git20210407.f7ed8bde-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master f7ed8bde
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 07 Apr 2021 09:34:42 +1000
+
+linux (5.10.0+bcachefs.git20210402.83dd3dbc-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 83dd3dbc
+  * Rebase on v5.10.27 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Fri, 02 Apr 2021 16:58:48 +1100
+
+linux (5.10.0+bcachefs.git20210330.ad5c032c5-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master ad5c032c5
+  * Rebase on v5.10.26 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 30 Mar 2021 14:23:36 +1100
+
+linux (5.10.0+bcachefs.git20210320.880780aa-1.3) hirsute; urgency=medium
+
+  * Drop dh-systemd harder (stupid generated debian/control, grumble grumble)
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 20 Mar 2021 14:55:18 +1100
+
+linux (5.10.0+bcachefs.git20210320.880780aa-1.2) hirsute; urgency=medium
+
+  * debian/control:
+    + Drop obsolete dh-systemd Build-Depends (included in debhelper 10)
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 20 Mar 2021 14:05:57 +1100
+
+linux (5.10.0+bcachefs.git20210320.880780aa-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 880780aa
+  * Rebase on v5.10.24 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 20 Mar 2021 10:10:50 +1100
+
+linux (5.10.0+bcachefs.git20210316.9482cfb5-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 9482cfb5
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 16 Mar 2021 18:30:27 +1100
+
+linux (5.10.0+bcachefs.git20210313.e49b2fc22-1.2) hirsute; urgency=medium
+
+  * Drop config annotation that no longer applies to 5.10.23
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 13 Mar 2021 22:00:45 +1100
+
+linux (5.10.0+bcachefs.git20210313.e49b2fc22-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master e49b2fc22
+  * Rebase on v5.10.23 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 13 Mar 2021 21:16:30 +1100
+
+linux (5.10.0+bcachefs.git20210308.5e96373f-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 5e96373f
+  * Rebase on v5.10.21 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 08 Mar 2021 19:59:59 +1100
+
+linux (5.10.0+bcachefs.git20210302.fc5d98c9-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master fc5d98c9
+  * Rebase on v5.10.19 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 02 Mar 2021 15:45:50 +1100
+
+linux (5.10.0+bcachefs.git20210224.e4b82792-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master e4b82792
+  * Rebase on v5.10.18 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 24 Feb 2021 17:38:39 +1100
+
+linux (5.10.0+bcachefs.git20210222.e2b81205-1.3) hirsute; urgency=medium
+
+  * Fix up overlayfs nosuid SAUCE patch for changes in 5.10.17
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 22 Feb 2021 20:59:54 +1100
+
+linux (5.10.0+bcachefs.git20210222.e2b81205-1.2) hirsute; urgency=medium
+
+  * Refresh kernel configs to fix policy check failure.
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 22 Feb 2021 09:58:18 +1100
+
+linux (5.10.0+bcachefs.git20210222.e2b81205-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master e2b81205
+  * Rebase on v5.10.17 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 22 Feb 2021 08:53:59 +1100
+
+linux (5.10.0+bcachefs.git20210209.84c36b77-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 84c36b77
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 09 Feb 2021 10:52:50 +1100
+
+linux (5.10.0+bcachefs.git20210204.8a8844c9-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 8a8844c9
+  * Work around PPA build space limits
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 04 Feb 2021 17:02:09 +1100
+
+linux (5.10.0+bcachefs.git20210202.1c1358a0-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 1c1358a0
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 02 Feb 2021 18:25:59 +1100
+
+linux (5.10.0+bcachefs.git20210120.8bb9b3ac-1.3) hirsute; urgency=medium
+
+  * Rebuild with version different to previous linux upload to disambiguate
+    shared binaries.
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 21 Jan 2021 14:36:37 +1100
+
+linux (5.10.0+bcachefs.git20210120.8bb9b3ac-1.2) hirsute; urgency=medium
+
+  * Upload -debug flavour as a separate source package, to work around PPA
+    builder disc limits.
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 21 Jan 2021 09:33:32 +1100
+
+linux (5.10.0+bcachefs.git20210120.8bb9b3ac-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 8bb9b3ac 
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 20 Jan 2021 14:38:18 +1100
+
+linux (5.10.0+bcachefs.git20210118.8a9ddf9f-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 8a9ddf9f
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 18 Jan 2021 10:29:49 +1100
+
+linux (5.10.0+bcachefs.git20210116.7d57e9b7-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 7d57e9b7
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 16 Jan 2021 10:00:24 +1100
+
+linux (5.10.0+bcachefs.git20210112.03b7eec4-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 03b7eec4
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 12 Jan 2021 08:36:13 +1100
+
+linux (5.10.0+bcachefs.git20201231.31e3b794-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 31e3b794
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 31 Dec 2020 10:43:46 +1100
+
+linux (5.10.0+bcachefs.git20201217.7f7be490-1.1) hirsute; urgency=medium
+
+  * Build of bcachefs master 7f7be490
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 17 Dec 2020 10:39:20 +1100
+
+linux (5.10.0+bcachefs.git20201215.b7ddbb0e-1.0) hirsute; urgency=medium
+
+  * Build of bcachefs master b7ddbb0e
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 15 Dec 2020 11:05:19 +1100
+
 linux (5.10.0-9.10) hirsute; urgency=medium
 
   * Use INTx for Pericom USB controllers (LP: #1906839)
@@ -8640,6 +8846,32 @@ linux-5.10 (5.10.0-0.0) groovy; urgency=medium
   * Empty entry
 
  -- Paolo Pisati <paolo.pisati@canonical.com>  Mon, 26 Oct 2020 14:55:48 +0100
+
+linux-5.9 (5.9.0+bcachefs.git20201208.641ac204-1.0) hirsute; urgency=medium
+
+  * Build of bcachefs master 641ac204
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 08 Dec 2020 11:02:52 +1100
+
+linux-5.9 (5.9.0+bcachefs.git20201202.c286adfd-1.0) hirsute; urgency=medium
+
+  * Build of bcachefs master c286adfd
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 02 Dec 2020 10:11:23 +1100
+
+linux-5.9 (5.9.0+bcachefs.git20201103.e4d80be0-1.0) hirsute; urgency=medium
+
+  * Re-enable ZFS build
+  * Update zfs-linux version to 0.8.5 - compatible with 5.9
+  * Disable nvidia build - 390 driver fails to build against 5.9
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Fri, 30 Oct 2020 15:48:03 +1100
+
+linux-5.9 (5.9.0+bcachefs.git20201028.ac76b692-1.0) groovy; urgency=medium
+
+  * Build of bcachefs master ac76b692
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 28 Oct 2020 12:46:00 +1100
 
 linux-5.9 (5.9.0-2.3) groovy; urgency=medium
 
@@ -9158,54 +9390,6 @@ linux-5.8 (5.8.0-0.0) groovy; urgency=medium
 
  -- Seth Forshee <seth.forshee@canonical.com>  Sun, 14 Jun 2020 22:40:35 -0500
 
-linux-5.7 (5.7.0+bcachefs.git20200710.4da816e3-1.1) groovy; urgency=medium
-
-  * Add a bunch of optional build dependencies
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 11 Jul 2020 10:35:14 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200710.4da816e3-1) groovy; urgency=medium
-
-  * Build of bcachefs master 4da816e3 
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Fri, 10 Jul 2020 15:53:51 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200708.65c16cd0-1) groovy; urgency=medium
-
-  * Build of bcachefs master 65c16cd0
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Wed, 08 Jul 2020 17:52:01 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200707.9622319a-1) groovy; urgency=medium
-
-  * Build of bachefs master 9622319a
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 07 Jul 2020 17:44:17 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200702.a6b46767-1) groovy; urgency=medium
-
-  * Build of bcachefs master a6b46767
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 02 Jul 2020 13:19:45 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200629.278fe397-1) groovy; urgency=medium
-
-  * Build of bcachefs master 278fe397
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 29 Jun 2020 08:53:53 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200627.b1708f01-1.4) groovy; urgency=medium
-
-  * Disable NVIDIA build; it fails on 5.7
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Sun, 28 Jun 2020 21:07:11 +1000
-
-linux-5.7 (5.7.0+bcachefs.git20200627.b1708f01-1.3) groovy; urgency=medium
-
-  * Refresh dkms package versions
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Sun, 28 Jun 2020 16:37:09 +1000
-
 linux-5.7 (5.7.0-8.9) groovy; urgency=medium
 
   * Packaging resync (LP: #1786013)
@@ -9703,31 +9887,6 @@ linux-5.7 (5.7.0-0.0) focal; urgency=medium
   * Dummy entry
 
  -- Paolo Pisati <paolo.pisati@canonical.com>  Thu, 16 Apr 2020 11:53:58 +0200
-
-linux-5.6 (5.6.14+bcachefs.git20200524.e1f6739c-1) groovy; urgency=medium
-
-  * Build of bcachefs master 3780300b on top of 5.6.14 stable
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Sun, 24 May 2020 11:55:10 +1000
-
-linux-5.6 (5.6.12+bcachefs.git20200521.e1f6739c-1) focal; urgency=medium
-
-  * Build of bcaches master e1f6739c on top of 5.6.12 stable tag
-  * Update zfs dkms version to grab 5.6 compatibility
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 21 May 2020 10:23:37 +1000
-
-linux-5.6 (5.6.11+bcachefs.git20200509.37d599c3-1.1) focal; urgency=medium
-
-  * Disable nvidia and vbox builds
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 09 May 2020 17:54:14 +1000
-
-linux-5.6 (5.6.11+bcachefs.git20200509.37d599c3-1) focal; urgency=medium
-
-  * Build of bcachefs master 37d599c3 on top of 5.6.11 stable tag
-
- -- Christopher James Halse Rogers <raof@ubuntu.com>  Sat, 09 May 2020 14:52:46 +1000
 
 linux-5.6 (5.6.0-7.7) focal; urgency=medium
 
