@@ -61,7 +61,8 @@ do
 			fi
 
 			# Download from the available pools.
-			for pool in $( grep -h '^deb ' /etc/apt/sources.list /etc/apt/sources.list.d/*.list | awk '{print $2}' | sort -u )
+			# (We handle sources of the form "deb $URL ..." or "deb [...] $URL ..."
+			for pool in $( grep -h '^deb ' /etc/apt/sources.list /etc/apt/sources.list.d/*.list | awk '{ if ($2 ~ /\[.*\]/) { print $3 } else { print $2} }' | sort -u )
 			do
 				if package_present "$lpackage"; then
 					break
