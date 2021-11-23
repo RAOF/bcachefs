@@ -4471,6 +4471,24 @@ linux-unstable (5.17.0-0.0) jammy; urgency=medium
 
  -- Andrea Righi <andrea.righi@canonical.com>  Fri, 28 Jan 2022 17:14:13 +0100
 
+linux (5.15.0+bcachefs.git20211116.1fa97551d-1.1) jammy; urgency=medium
+
+  * Build of bcachefs master 1fa97551d
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Tue, 16 Nov 2021 11:36:56 +1100
+
+linux (5.15.0+bcachefs.git20211111.908ab0cd-1.1) jammy; urgency=medium
+
+  * Build of bcachefs master 908ab0cd
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 11 Nov 2021 09:23:48 +1100
+
+linux (5.15.0+bcachefs.git20211108.f692f7c9-1.1) jammy; urgency=medium
+
+  * Build of bcachefs master f692f7c9
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Mon, 08 Nov 2021 17:10:19 +1100
+
 linux (5.15.0-18.18) jammy; urgency=medium
 
   * jammy/linux: 5.15.0-18.18 -proposed tracker (LP: #1958638)
