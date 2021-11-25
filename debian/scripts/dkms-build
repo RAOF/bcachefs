@@ -73,6 +73,8 @@ do
 				url=$(echo "$url" | sed -e 's@/pool/[^/]*/@/pool/main/@')
 				"$here/file-downloader" "$url" && break || true
 			done
+			# Try apt
+			apt-get download "$rpackage" && break || true
 			;;
 		http*:*)
 			"$here/file-downloader" "$package_path"
