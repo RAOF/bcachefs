@@ -46,6 +46,7 @@ do
 	echo "II: dkms-build downloading $package ($package_file)"
 	rpackage=$( echo "$package_path" | sed -e 's@.*/@@' -e 's@_.*@@' )
 	lpackage=$( echo "$rpackage" | sed -e 's@=.*@@' )
+	pkg_ver=$(echo "$package_path" | sed -e 's@.*_@@' -e 's@_.*@@' )
 
 	while true
 	do
@@ -73,8 +74,11 @@ do
 				url=$(echo "$url" | sed -e 's@/pool/[^/]*/@/pool/main/@')
 				"$here/file-downloader" "$url" && break || true
 			done
+			if package_present "$lpackage"; then
+				break
+			fi
 			# Try apt
-			apt-get download "$rpackage" && break || true
+			apt-get download "$rpackage"="$pkg_ver" && break || true
 			;;
 		http*:*)
 			"$here/file-downloader" "$package_path"
@@ -83,7 +87,7 @@ do
 			cp -p "$package_path" .
 			;;
 		*)
-			apt-get download "$rpackage"
+			apt-get download "$rpackage"="$pkg_ver"
 			;;
 		esac
 		break
