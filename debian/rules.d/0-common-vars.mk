@@ -61,6 +61,9 @@ abinum		:= $(firstword $(subst .,$(space),$(revision)))
 prev_abinum	:= $(firstword $(subst .,$(space),$(prev_revision)))
 abi_release	:= $(release)-$(abinum)
 
+# We don't care about ABI checks
+do_skip_checks := true
+
 uploadnum	:= $(patsubst $(abinum).%,%,$(revision))
 ifneq ($(do_full_build),false)
   uploadnum	:= $(uploadnum)-Ubuntu
