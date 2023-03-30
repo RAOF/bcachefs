@@ -48,6 +48,7 @@ Build-Depends:
  libzstd-dev,
  libbabeltrace-dev,
  systemtap-sdt-dev,
+ libtraceevent-dev,
 Build-Depends-Indep:
  xmlto <!stage1>,
  docbook-utils <!stage1>,

@@ -1,3 +1,10 @@
+linux (6.2.8+bcachefs.git20230329.7e18566c-1.1) lunar; urgency=medium
+
+  * Build of bcachefs-testing 7e18566c
+  * Rebased on 6.2.8 stable
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 23 Mar 2023 13:40:40 +1100
+
 linux (6.2.0-18.18) lunar; urgency=medium
 
   * lunar/linux: 6.2.0-18.18 -proposed tracker (LP: #2011750)
@@ -1718,6 +1725,13 @@ linux-unstable (6.2.0-0.0) lunar; urgency=medium
   * Empty entry
 
  -- Andrea Righi <andrea.righi@canonical.com>  Sun, 01 Jan 2023 10:16:00 +0100
+
+linux (6.1.13+bcachefs.git20230302.adc22c951-1.1) lunar; urgency=medium
+
+  * Build of bcachefs adc22c951
+  * Turn on *all* the debugging (ZFS-incompatible)
+
+ -- Christopher James Halse Rogers <raof@ubuntu.com>  Thu, 02 Mar 2023 12:19:36 +1100
 
 linux (6.1.13+bcachefs.git20230225.b110f8403-1.1) lunar; urgency=medium
 
